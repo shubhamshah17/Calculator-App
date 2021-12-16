@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubham.calculatorapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CalculatorApp">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StandardCal"
+            android:label="@string/title_activity_standard_cal" />
+        <activity
+            android:name=".ScientificCal"
+            android:label="@string/title_activity_scientific_cal" />
+        <activity
+            android:name=".UnitCoverter"
+            android:label="@string/title_activity_unit_coverter" />
+        <activity
+            android:name=".UnitArea"
+            android:label="@string/title_activity_unit_area" />
+        <activity
+            android:name=".UnitLength"
+            android:label="@string/title_activity_unit_length" />
+        <activity
+            android:name=".UnitWeight"
+            android:label="@string/title_activity_unit_weight" />
+        <activity
+            android:name=".UnitTemperature"
+            android:label="@string/title_activity_unit_temperature" />
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history" />
+    </application>
+
+</manifest>
