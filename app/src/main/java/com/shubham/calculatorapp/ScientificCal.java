@@ -9,6 +9,10 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.shubham.calculatorapp.utils.CalculateFactorial;
+import com.shubham.calculatorapp.utils.DBHelper;
+import com.shubham.calculatorapp.utils.ExtendedDoubleEvaluator;
+
 public class ScientificCal extends AppCompatActivity {
 
     private EditText e1, e2;

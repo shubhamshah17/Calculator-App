@@ -28,16 +28,16 @@
             android:name=".UnitCoverter"
             android:label="@string/title_activity_unit_coverter" />
         <activity
-            android:name=".UnitArea"
+            android:name=".units.UnitArea"
             android:label="@string/title_activity_unit_area" />
         <activity
-            android:name=".UnitLength"
+            android:name=".units.UnitLength"
             android:label="@string/title_activity_unit_length" />
         <activity
-            android:name=".UnitWeight"
+            android:name=".units.UnitWeight"
             android:label="@string/title_activity_unit_weight" />
         <activity
-            android:name=".UnitTemperature"
+            android:name=".units.UnitTemperature"
             android:label="@string/title_activity_unit_temperature" />
         <activity
             android:name=".History"

@@ -2,9 +2,9 @@ package com.shubham.calculatorapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -18,28 +18,22 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
     }
 
-    public void onClick(View view)
-    {
+    public void onClick(View view) {
         Intent i;
-        if(view.getId()==R.id.button1)
-        {
-            i=new Intent(this,StandardCal.class);
+        if (view.getId() == R.id.button1) {
+            i = new Intent(this, StandardCal.class);
             startActivity(i);
-        }
-        else if(view.getId()==R.id.button)
-        {
-            i=new Intent(this,ScientificCal.class);
+        } else if (view.getId() == R.id.button) {
+            i = new Intent(this, ScientificCal.class);
             startActivity(i);
-        }
-        else if(view.getId()==R.id.button2)
-        {
-            i=new Intent(this,UnitCoverter.class);
+        } else if (view.getId() == R.id.button2) {
+            i = new Intent(this, UnitCoverter.class);
             startActivity(i);
         }
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

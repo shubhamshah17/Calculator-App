@@ -1,4 +1,4 @@
-package com.shubham.calculatorapp;
+package com.shubham.calculatorapp.utils;
 
 import com.fathzer.soft.javaluator.DoubleEvaluator;
 import com.fathzer.soft.javaluator.Function;

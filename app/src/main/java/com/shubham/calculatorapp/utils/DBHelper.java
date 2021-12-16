@@ -1,4 +1,4 @@
-package com.shubham.calculatorapp;
+package com.shubham.calculatorapp.utils;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -5,7 +5,7 @@
     <string name="stdCal">Standard Calculator</string>
     <string name="sciCal">Scientific Calculator</string>
     <string name="unitCal">Unit Converter</string>
-    <string name="FullCal">Calculator App</string>
+    <string name="FullCal">Calculator</string>
     <string name="title_activity_standard_cal">StandardCal</string>
     <string name="title_activity_scientific_cal">ScientificCal</string>
     <string name="title_activity_unit_coverter">UnitConverter</string>

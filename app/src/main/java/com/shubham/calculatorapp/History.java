@@ -8,6 +8,8 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.shubham.calculatorapp.utils.DBHelper;
+
 import java.util.ArrayList;
 
 public class History extends AppCompatActivity {
